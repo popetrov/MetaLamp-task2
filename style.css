@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.body {
+	font-family: montserrat;
+}
+.logo {
+	margin: 30px 0 0 30px;
+	width: 48px;
+	height: 48px;
+	position: relative;
+}
+.colors-and-type {
+	display: flex;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+}
+.list__color {
+	margin: 145px 423px 0 150px;
+	width: max-content;
+}
+.list__string {
+	display: flex;
+	list-style-type: none;
+}
+.list__string_color {
+	margin-bottom: 20px;
+	align-items: center;
+}
+.list__string_type {
+	margin-bottom: 50px;
+}
+.list__img {
+	width: 70px;
+	height: 70px;
+	border-radius: 6px;
+}
+.list__img_dark-shade-100 {
+	background: #1f2041;
+}
+.list__img_dark-shade-75 {
+	background: #1f2041;
+	opacity: 75%;
+}
+.list__img_dark-shade-50 {
+	background: #1f2041;
+	opacity: 50%;
+}
+.list__img_dark-shade-25 {
+	background: #1f2041;
+	opacity: 25%;
+}
+.list__img_dark-shade-5 {
+	background: #1f2041;
+	opacity: 5%;
+}
+.list__img_purple {
+	background: #bc9cff;
+}
+.list__img_green {
+	background: #6fcf97;
+}
+.list__text {
+	margin-left: 40px;
+}
+.list__text_700 {
+	margin: 0 0;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 28.5px;
+}
+.list__text_400 {
+	margin: 0 0;
+	min-width: 37px;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 27.79px;
+	text-align: end;
+}
+.list__text_400_h1 {
+	font-size: 24px;
+	line-height: 29.26px;
+	opacity: 25%;
+}
+.list__text_400_h2 {
+	font-size: 19px;
+	line-height: 23.16px;
+	opacity: 25%;
+}
+.list__text_400_h3 {
+	font-size: 12px;
+	line-height: 14.63px;
+	opacity: 25%;
+}
+.list__text_400_body {
+	font-size: 14px;
+	line-height: 24px;
+	opacity: 25%;
+}
+.list__type_text {
+	padding-left: 30px;
+}
+.list__type {
+	margin: 145px 0 0 0;
+	width: max-content;
+	max-width: 368px;
+}
+.list__type_text_h1 {
+	min-width: 370px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+.list__type_text_h2 {
+	min-width: 370px;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 23px;
+}
+.list__type_text_h3 {
+	min-width: 370px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+.list__type_text_body {
+	min-width: 370px;
+	font-weight: normal;
+	opacity: 75%;
+	font-size: 14px;
+	line-height: 24px;
+}
